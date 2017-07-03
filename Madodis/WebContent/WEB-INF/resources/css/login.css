@@ -1,0 +1,46 @@
+@import url('./roboto.css');
+body {
+  background-color:white;
+  background-image:url('/madodis/resources/images/imgFacul.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+.container {
+    padding: 30px;
+    position: fixed;
+}
+
+.form-login {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    width: 350px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #0c0c0c; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 12px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+
+}
+

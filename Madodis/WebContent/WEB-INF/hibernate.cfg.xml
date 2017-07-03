@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+	
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/docente</property>
+    	<property name="hibernate.connection.pool_size">20</property>
+    	<property name="show_sql">true</property>
+    	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    	<property name="hibernate.hbm2ddl.auto">update</property>
+    	
+    	<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Endereco"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Telefone"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Instituicao"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Professor"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Aluno"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Secretaria"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.PlanoDeEnsino"/>
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Disciplina"/>			
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Curso"/> 
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Coordenador"/>  
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Aula"/>   
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Turma"/> 
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Matricula"/> 
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Contato"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.AlunoFrequencia"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Frequencia"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.AlunoProva"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.Prova"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.DiarioDeClasse"/>    
+		<mapping class="br.edu.facol.gestaoacademicaweb.pojo.AulaArquivo"/> 
+	</session-factory>
+</hibernate-configuration>	
